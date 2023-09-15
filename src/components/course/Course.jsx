@@ -1,11 +1,12 @@
-import React from "react";
+
 import { IoLogoUsd } from 'react-icons/io';
 import { AiOutlineRead } from 'react-icons/ai';
 
-const Course = ({ course }) => {
+const Course = ({ course,handleClicked }) => {
+  // console.log(course)
   const { title, img, description, price,credit } = course;
   return (
-    <div className="w-80 bg-white p-4">
+    <div className="flex flex-col justify-between w-80 bg-white p-4">
       <img src={img} alt="" />
       <h2
         className="text-xl font-bold mt-2 mb-2
@@ -21,7 +22,7 @@ const Course = ({ course }) => {
         <span><AiOutlineRead></AiOutlineRead></span>
         <p>Credit:{credit}</p>  
       </div>
-      <button
+      <button onClick= {()=>handleClicked(course)}
         className="px-28 py-2 rounded mt-2"
         style={{ backgroundColor: "royalblue" }}
       >

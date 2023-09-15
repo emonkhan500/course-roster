@@ -3,64 +3,64 @@
       "img": "https://i.ibb.co/b7xbWqY/Rectangle-2.png",
       "title": "Web Development Bootcamp",
       "description": "A comprehensive bootcamp to learn web development from scratch. Covers HTML, CSS, JavaScript, and more.",
-      "price": "$199.99",
-      "credit": "7"
+      "price": 199.99,
+      "credit": 2
     },
     { "ID": 2,
       "img": "https://i.ibb.co/Wxn71P6/Rectangle-2-1.png",
       "title": "Full-Stack Web Developer Certification",
       "description": "Become a full-stack web developer with this intensive certification program. Includes backend and frontend development.",
-      "price": "$299.99",
-      "credit": "9"
+      "price": 299.99,
+      "credit": 3
     },
     { "ID": 3,
       "img": "https://i.ibb.co/N1vvbh2/Rectangle-2-2.png",
       "title": "JavaScript Fundamentals",
       "description": "Master JavaScript programming with this foundational course. Learn DOM manipulation, AJAX, and more.",
-      "price": "$99.99",
-      "credit": "4"
+      "price": 99.99,
+      "credit": 4
     },
     { "ID": 4,
       "img": "https://i.ibb.co/RcQPfwf/Rectangle-2-3.png",
       "title": "React.js Crash Course",
       "description": "Learn React.js, a popular JavaScript library for building user interfaces, in a short time.",
-      "price": "$79.99",
-      "credit": "4"
+      "price": 79.99,
+      "credit": 4
     },
     { "ID":5 ,
       "img": "https://i.ibb.co/bJ59z7h/Rectangle-2-4.png",
       "title": "Node.js Backend Development",
       "description": "Build scalable and efficient backend systems with Node.js. Includes Express.js and MongoDB.",
-      "price": "$149.99",
-      "credit": "8"
+      "price": 149.99,
+      "credit": 8
     },
     { "ID": 6,
       "img": "https://i.ibb.co/NKf78tC/Rectangle-2-5.png",
       "title": "Frontend Web Design Masterclass",
       "description": "Become a skilled frontend web designer. Learn responsive design, CSS frameworks, and more.",
-      "price": "$129.99",
-      "credit": "6"
+      "price": 129.99,
+      "credit": 1
     },
     { "ID": 7,
       "img": "https://i.ibb.co/WndFJpP/Rectangle-2-6.png",
       "title": "Django Web Development",
       "description": "Explore Django, a high-level Python web framework, and build web applications with ease.",
-      "price": "$199.99",
-      "credit": "6"
+      "price": 199.99,
+      "credit": 3
     },
     { "ID": 8,
       "img": "https://i.ibb.co/T0ZWFGz/Rectangle-3.png",
       "title": "Advanced Web Security",
       "description": "Learn advanced techniques to secure web applications and protect against cyber threats.",
-      "price": "$249.99",
-      "credit": "5"
+      "price": 249.99,
+      "credit": 5
     },
     { "ID": 9,
       "img": "https://i.ibb.co/XVN9M0c/Rectangle-3-1.png",
       "title": "Web Development with Vue.js",
       "description": "Master Vue.js, a progressive JavaScript framework, and build interactive web applications.",
-      "price": "$109.99",
-      "credit": "10"
+      "price": 109.99,
+      "credit": 10
     }
   ]
   
