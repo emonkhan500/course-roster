@@ -28,6 +28,7 @@ const Course = ({ course,handleClicked }) => {
       >
         Select
       </button>
+      
     </div>
   );
 };

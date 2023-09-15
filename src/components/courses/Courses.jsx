@@ -3,7 +3,8 @@ import { useState } from "react";
 import Course from "../course/Course";
 import "./Courses.css";
 import Cart from "../cart/Cart";
-
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const Courses = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
@@ -17,11 +18,13 @@ const [totalCost, setTotalCost]=useState(0)
   }, []);
 
   const handleClicked = (course) => {
+    
     const isExist = selectedCourse.find((item)=>item.ID == course.ID);
 let credit = course.credit;
 
     if (isExist){
-     return alert ('Already Added')
+     return toast ('Already Added')
+     
     }
     else{
       
@@ -32,14 +35,14 @@ let credit = course.credit;
       const totalRemaining =20-credit;
       
       if(credit >20){
-      return  alert('Reached Credit Limit')
+      return  toast('Reached Credit Limit')
       }
       else{
         setTotalCost(credit)
         setRemaining(totalRemaining)
         setSelectedCourse([...selectedCourse, course])
       }
-     
+      
     }
     
   };
@@ -70,6 +73,7 @@ let credit = course.credit;
         </ul>
         <h2 className="text-xl">Total Credit Hour :{totalCost} </h2>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
