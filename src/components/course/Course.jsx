@@ -16,11 +16,11 @@ const Course = ({ course,handleClicked }) => {
       </h2>
       <p>{description}</p>
 
-      <div className="flex justify-between items-center">
-      <span><IoLogoUsd></IoLogoUsd></span>
-        <p>Price:{price}</p>
-        <span><AiOutlineRead></AiOutlineRead></span>
-        <p>Credit:{credit}</p>  
+      <div className="flex gap-16 items-center">
+      
+        <p> <IoLogoUsd className='inline'></IoLogoUsd> Price:{price}</p>
+       
+        <p><AiOutlineRead className='inline'></AiOutlineRead> Credit:{credit}</p>  
       </div>
       <button onClick= {()=>handleClicked(course)}
         className="px-28 py-2 rounded mt-2"
