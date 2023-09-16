@@ -8,5 +8,5 @@
  I have used state 4 times in this project. 
 - 1st state i used for showing all available courses from fake data to project.
 - 2nd state i used for showing selected course by user to cart component.
-- 3nd state i used for set default remaining hour and decreasing hour when user will select any course
-- 2nd state i used for set credit and increasing credit when user will select any course.
+- 3rd state i used for set default remaining hour and decreasing hour when user will select any course
+- 4th state i used for set credit and increasing credit when user will select any course.
